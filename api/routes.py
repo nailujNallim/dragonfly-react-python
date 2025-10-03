@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from .models import Todo, TodoCreate, TodoItem, TodoUpdate
-from .database import get_db
+from models import Todo, TodoCreate, TodoItem, TodoUpdate
+from database import get_db
 
 router = APIRouter()
 
